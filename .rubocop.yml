@@ -17,3 +17,6 @@ Rails/Date:
   SupportedStyles:
     - strict
     - flexible
+
+Style/EmptyLinesAroundBody:
+  Enabled: false

@@ -1,4 +1,4 @@
-Style/FrozenStringLiteralComment:
+tyle/FrozenStringLiteralComment:
   Description: >-
                  Add the frozen_string_literal comment to the top of files
                  to help transition from Ruby 2.3.0 to Ruby 3.0.
@@ -6,3 +6,14 @@ Style/FrozenStringLiteralComment:
 
 Documentation:
   Enabled: false
+
+Rails/Date:
+  # The value `strict` disallows usage of `Date.today`, `Date.current`,
+  # `Date#to_time` etc.
+  # The value `flexible` allows usage of `Date.current`, `Date.yesterday`, etc
+  # (but not `Date.today`) which are overridden by ActiveSupport to handle current
+  # time zone.
+  EnforcedStyle: flexible
+  SupportedStyles:
+    - strict
+    - flexible

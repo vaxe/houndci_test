@@ -21,7 +21,7 @@ class Test
   end
 
   def bang
-    ! false
+    !!!! false
   end
 
   def style
@@ -30,7 +30,7 @@ class Test
   end
 
   def test
-      a, b = 1,2;
+    a, b = 1,2;
   end
 
 end

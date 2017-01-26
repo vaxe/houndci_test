@@ -21,7 +21,7 @@ class Test
   end
 
   def bang
-    ! false
+    !! false
   end
 
   def style

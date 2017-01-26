@@ -29,4 +29,8 @@ class Test
       a
   end
 
+  def test
+      a, b = 1,2;
+  end
+
 end

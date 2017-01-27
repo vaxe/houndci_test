@@ -17,12 +17,12 @@ class Test
   end
 
   def condition
-    if true then 1 else 2 end
     true ? 1 : 2
+    if true then 1 else 2 end
   end
 
   def bang
-    !! false
+    !!!! false
   end
 
   def style
